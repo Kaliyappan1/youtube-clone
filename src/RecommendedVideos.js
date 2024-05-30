@@ -30,7 +30,7 @@ function RecommendedVideos() {
           />
           <VideoCard
           image="https://thispersondoesnotexist.com/" title="sample videos for youtube clone" channel="tricky" views="10M" timestamp="1 days ago" channelImage="https://thispersondoesnotexist.com/"
-          />
+          />4
           <VideoCard
           image="https://thispersondoesnotexist.com/" title="sample videos for youtube clone" channel="tricky" views="10M" timestamp="1 days ago" channelImage="https://thispersondoesnotexist.com/"
           />
