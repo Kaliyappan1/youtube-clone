@@ -1,19 +1,20 @@
 import './App.css';
+import Connect from './Final'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Header';
-import RecommendedVideos from './RecommendedVideos';
-import Sidebar from './Sidebar';
-
 
 function App() {
   return (
     <div className="App">
+      <Router>
       <Header/>
-    <div className='app_page'>
-      <Sidebar/>
-      <RecommendedVideos/>
-    </div>
-   
-      
+        <Routes>
+          
+          <Route path='/' element={<Connect/>} />
+          <Route path='search' element={<h1>search</h1>}/>
+          
+        </Routes>
+      </Router>
       
     </div>
   );

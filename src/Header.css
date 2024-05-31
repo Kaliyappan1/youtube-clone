@@ -12,10 +12,9 @@
 .header_logo {
   height: 25px;
   object-fit: contain;
+  margin-left: 15px;
 }
-.header-menu {
-  margin-right: 15px;
-}
+
 .header_input {
   display: flex;
   align-items: center;
@@ -30,13 +29,15 @@
   align-items: center;
 }
 .header_inputButton {
-  /* width: 50px !important;
-  height: 40px !important; */
+  /* width: 50px  !important;
+  height: 43px !important; */
+
   background-color: #e2e2e2;
   border-left: 1px solid lightgray;
   border: 1px solid rgb(133, 133, 133);
   border-radius: 0 50px 50px 0;
-  padding: 8px;
+  padding: 9px;
+  color: black;
 }
 
 .header_input > input {
@@ -46,6 +47,7 @@
   outline: none;
   width: 40%;
   height: 40px;
+  padding: 20px ;
 }
 
 .header_right {
